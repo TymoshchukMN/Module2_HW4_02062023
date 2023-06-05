@@ -70,9 +70,6 @@ namespace Module2_HW4_02062023
                     }
                 }
 
-                //string strWeifhtOneGift = groupedAnimals[i].Split(':')[0];
-                //string gift = groupedAnimals[i].Split(':')[1];
-
                 groupedAnimals[i] = $"{countCpecificGifts}:" +
                     $"{groupedAnimals[i]}";
             }

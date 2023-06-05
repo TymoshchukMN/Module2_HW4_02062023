@@ -7,15 +7,10 @@ namespace Module2_HW4_02062023
     {
         public static void Run()
         {
-            //IPrintAviary ui = new UI();
-
             IGetAnimals aviary = new Aviary();
             ICountedAnimals countedAnimals = (ICountedAnimals)aviary;
 
-
             UI.PrintAviary(aviary);
-
-            Console.WriteLine("===================");
             Console.WriteLine();
             UI.PrintSortedAnimals(countedAnimals);
 
