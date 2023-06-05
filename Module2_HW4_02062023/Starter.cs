@@ -8,9 +8,11 @@ namespace Module2_HW4_02062023
         public static void Run()
         {
             IPrintAviary ui = new UI();
-            Aviary aviary = new Aviary();
+            IGetAnimals aviary = new Aviary();
 
-            ui.PrintAviary(aviary.Animals);
+            Console.WriteLine("***********");
+
+            ui.PrintAviary(aviary);
             
 
         }

@@ -56,7 +56,5 @@ namespace Module2_HW4_02062023
 
             return animal;
         }
-
-       
     }
 }
