@@ -3,7 +3,7 @@
   <Class Name="Module2_HW4_02062023.Aviary">
     <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAIAAAAAAAAAAAAAIAAAAAAAQIAAACAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Aviary.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -18,53 +18,53 @@
       <NewMemberFileName>Cats.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Module2_HW4_02062023.Cat" Collapsed="true">
+  <Class Name="Module2_HW4_02062023.Cats" Collapsed="true">
     <Position X="2.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Cats.cs</FileName>
+      <FileName>Animals\Cats.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW4_02062023.Monkey" Collapsed="true">
     <Position X="6.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Monkey.cs</FileName>
+      <FileName>Animals\Monkey.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW4_02062023.Tiger">
-    <Position X="0.75" Y="3.25" Width="1.5" />
+    <Position X="0.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Tiger.cs</FileName>
+      <FileName>Animals\Tiger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW4_02062023.Lion">
-    <Position X="2.75" Y="3.25" Width="1.5" />
+    <Position X="2.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Lion.cs</FileName>
+      <FileName>Animals\Lion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW4_02062023.Сhimpanzee">
     <Position X="5.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Сhimpanzee.cs</FileName>
+      <FileName>Animals\Сhimpanzee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW4_02062023.Gorilla">
     <Position X="7.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Gorilla.cs</FileName>
+      <FileName>Animals\Gorilla.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="Module2_HW4_02062023.AnimalsKind">
     <Position X="9.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkEAAA=</HashCode>
-      <FileName>AnimalsKind.cs</FileName>
+      <FileName>Enums\AnimalsKind.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />

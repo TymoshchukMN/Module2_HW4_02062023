@@ -7,5 +7,10 @@ namespace Module2_HW4_02062023
 {
     public class Сhimpanzee : Monkey
     {
+        public Сhimpanzee(AnimalsKind kind)
+            : base(kind)
+        {
+
+        }
     }
 }

@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Module2_HW4_02062023
 {
-    public class Cats : Animal
+    public class Monkey : Animal
     {
+        public Monkey(AnimalsKind kind)
+            : base(kind)
+        {
+        }
     }
 }

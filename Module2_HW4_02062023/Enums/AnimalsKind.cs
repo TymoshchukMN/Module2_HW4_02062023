@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Module2_HW4_02062023
 {
-    public enum AnimalsKind : ushort
+    public enum AnimalsKind
     {
         /// <summary>
         /// def.

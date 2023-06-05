@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Module2_HW4_02062023.Interfaces;
 
 namespace Module2_HW4_02062023
 {
@@ -10,10 +8,9 @@ namespace Module2_HW4_02062023
         private AnimalsKind _kind;
         private int _weight;
 
-        public Animal(AnimalsKind kind, int weight)
+        public Animal(AnimalsKind kind)
         {
             _kind = kind;
-            _weight = weight;
         }
 
         public AnimalsKind Kind
@@ -21,6 +18,11 @@ namespace Module2_HW4_02062023
             get
             {
                 return _kind;
+            }
+
+            protected set
+            {
+                _kind = value;
             }
         }
 
@@ -30,6 +32,11 @@ namespace Module2_HW4_02062023
             {
                 return _weight;
             }
+        }
+
+        public override string ToString()
+        {
+            return _kind.ToString();
         }
     }
 }
