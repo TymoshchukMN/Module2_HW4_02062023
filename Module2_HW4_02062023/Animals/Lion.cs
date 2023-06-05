@@ -10,6 +10,8 @@ namespace Module2_HW4_02062023
         public Lion(AnimalsKind kind)
             : base(kind)
         {
+            Kind = AnimalsKind.Lion;
+            Weight = 350;
         }
     }
 }

@@ -13,7 +13,6 @@ namespace Module2_HW4_02062023
             ui.PrintAviary(aviary.Animals);
             
 
-            Console.WriteLine(aviary.Animals);
         }
     }
 }

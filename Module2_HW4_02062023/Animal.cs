@@ -32,6 +32,11 @@ namespace Module2_HW4_02062023
             {
                 return _weight;
             }
+
+            set
+            {
+                _weight = value;
+            }
         }
 
         public override string ToString()

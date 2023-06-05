@@ -11,7 +11,7 @@ namespace Module2_HW4_02062023
             : base(kind)
         {
             Kind = AnimalsKind.Tiger;
-            // Weight = 300;
+            Weight = 300;
         }
     }
 }

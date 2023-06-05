@@ -3,7 +3,7 @@ using Module2_HW4_02062023.Interfaces;
 
 namespace Module2_HW4_02062023
 {
-    public class Aviary
+    public class Aviary : IGetAnimals
     {
         private const int CountAnimals = 15;
         private Animal[] _animals;
@@ -26,6 +26,11 @@ namespace Module2_HW4_02062023
         {
             get { return _animals; }
             set { _animals = value; }
+        }
+
+        public Animal[] GetAnimals()
+        {
+            return _animals;
         }
 
         private static Animal FillAviary(int randNUm)
@@ -51,5 +56,7 @@ namespace Module2_HW4_02062023
 
             return animal;
         }
+
+       
     }
 }

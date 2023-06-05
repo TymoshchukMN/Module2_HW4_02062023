@@ -13,7 +13,7 @@
   <Class Name="Module2_HW4_02062023.Animal" Collapsed="true">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAABAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAAAAABAAAAEAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Animal.cs</FileName>
       <NewMemberFileName>Cats.cs</NewMemberFileName>
     </TypeIdentifier>
@@ -61,7 +61,7 @@
     </TypeIdentifier>
   </Class>
   <Enum Name="Module2_HW4_02062023.AnimalsKind">
-    <Position X="9.75" Y="1.5" Width="1.5" />
+    <Position X="10" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkEAAA=</HashCode>
       <FileName>Enums\AnimalsKind.cs</FileName>
