@@ -49,6 +49,7 @@
     <Compile Include="Aviary.cs" />
     <Compile Include="Animals\Cats.cs" />
     <Compile Include="Animals\Gorilla.cs" />
+    <Compile Include="Interfaces\ICountedAnimals.cs" />
     <Compile Include="Interfaces\IGetAnimals.cs" />
     <Compile Include="Interfaces\IPrintAviary.cs" />
     <Compile Include="Animals\Lion.cs" />

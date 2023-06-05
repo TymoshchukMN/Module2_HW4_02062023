@@ -3,7 +3,7 @@ using Module2_HW4_02062023.Interfaces;
 
 namespace Module2_HW4_02062023
 {
-    public class Aviary : IGetAnimals
+    public class Aviary : IGetAnimals, ICountedAnimals
     {
         private const int CountAnimals = 15;
         private Animal[] _animals;
@@ -33,6 +33,56 @@ namespace Module2_HW4_02062023
             return _animals;
         }
 
+        string[] ICountedAnimals.CountAnimals()
+        {
+            string[] groupedAnimals = new string[0];
+            int n = _animals.Length;
+
+            for (int i = 0; i < n; i++)
+            {
+                bool isDuplicate = false;
+                for (int j = 0; j < i; j++)
+                {
+                    if (_animals[i].ToString() == _animals[j].ToString())
+                    {
+                        isDuplicate = true;
+                        break;
+                    }
+                }
+
+                if (!isDuplicate)
+                {
+                    Array.Resize(ref groupedAnimals, groupedAnimals.Length + 1);
+                    groupedAnimals[groupedAnimals.Length - 1]
+                        = $"{_animals[i]}";
+                }
+            }
+
+            for (int i = 0; i < groupedAnimals.Length; i++)
+            {
+                int countCpecificGifts = 0;
+                for (int j = 0; j < _animals.Length; j++)
+                {
+                    string giftForCompaire = groupedAnimals[i];
+                    if (giftForCompaire == _animals[j].ToString())
+                    {
+                        ++countCpecificGifts;
+                    }
+                }
+
+                //string strWeifhtOneGift = groupedAnimals[i].Split(':')[0];
+                //string gift = groupedAnimals[i].Split(':')[1];
+
+                groupedAnimals[i] = $"{countCpecificGifts}:" +
+                    $"{groupedAnimals[i]}";
+            }
+
+            Array.Sort(groupedAnimals);
+            Array.Reverse(groupedAnimals);
+
+            return groupedAnimals;
+        }
+
         private static Animal FillAviary(int randNUm)
         {
             AnimalsKind kind = (AnimalsKind)randNUm;
@@ -56,5 +106,7 @@ namespace Module2_HW4_02062023
 
             return animal;
         }
+
+        
     }
 }

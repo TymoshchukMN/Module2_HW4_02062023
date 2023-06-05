@@ -8,6 +8,6 @@ namespace Module2_HW4_02062023.Interfaces
 {
     public interface ICountedAnimals
     {
-
+        string[] CountAnimals();
     }
 }
