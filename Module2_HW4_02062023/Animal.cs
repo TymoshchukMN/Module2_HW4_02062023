@@ -7,10 +7,16 @@ namespace Module2_HW4_02062023
 {
     public class Animal
     {
-        private string _kind;
+        private AnimalsKind _kind;
         private int _weight;
 
-        public string Kind
+        public Animal(AnimalsKind kind, int weight)
+        {
+            _kind = kind;
+            _weight = weight;
+        }
+
+        public AnimalsKind Kind
         {
             get
             {

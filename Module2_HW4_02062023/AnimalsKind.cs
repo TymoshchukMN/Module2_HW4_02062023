@@ -5,31 +5,31 @@ using System.Text;
 
 namespace Module2_HW4_02062023
 {
-    public enum AnimalsKind : byte
+    public enum AnimalsKind : ushort
     {
         /// <summary>
         /// def.
         /// </summary>
-        None,
+        None = 0,
 
         /// <summary>
         /// Tiger.
         /// </summary>
-        Tiger,
+        Tiger = 1,
 
         /// <summary>
         /// Lion.
         /// </summary>
-        Lion,
+        Lion = 2,
 
         /// <summary>
         /// Сhimpanzee.
         /// </summary>
-        Сhimpanzee,
+        Сhimpanzee = 3,
 
         /// <summary>
         /// Gorilla.
         /// </summary>
-        Gorilla,
+        Gorilla = 4,
     }
 }
