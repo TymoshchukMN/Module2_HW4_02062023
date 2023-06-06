@@ -9,6 +9,7 @@ namespace Module2_HW4_02062023
         {
             Kind = AnimalsKind.Tiger;
             Weight = 120;
+            MainFood = Enums.MainFood.Orange;
         }
     }
 }

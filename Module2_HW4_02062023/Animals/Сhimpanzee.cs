@@ -12,6 +12,7 @@ namespace Module2_HW4_02062023
         {
             Kind = AnimalsKind.Сhimpanzee;
             Weight = 70;
+            MainFood = Enums.MainFood.Banana;
         }
     }
 }

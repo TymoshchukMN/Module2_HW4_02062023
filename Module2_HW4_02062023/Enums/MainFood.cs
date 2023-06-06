@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace Module2_HW4_02062023.Enums
 {
-    internal interface MainFood
+    public enum MainFood
     {
+        /// <summary>
+        /// Def.
+        /// </summary>
+        None,
+
+        /// <summary>
+        /// Meat.
+        /// </summary>
+        Meat,
+
+        /// <summary>
+        /// Banana.
+        /// </summary>
+        Banana,
+
+        /// <summary>
+        /// Orange.
+        /// </summary>
+        Orange,
     }
 }

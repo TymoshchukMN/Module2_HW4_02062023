@@ -1,4 +1,5 @@
 ﻿using System;
+using Module2_HW4_02062023.Extentions;
 using Module2_HW4_02062023.Interfaces;
 
 namespace Module2_HW4_02062023
@@ -14,8 +15,7 @@ namespace Module2_HW4_02062023
             Console.WriteLine();
             UI.PrintSortedAnimals(countedAnimals);
 
-
-
+            UI.PrintAviary(Find.FindAnimalByFood(aviary, Enums.MainFood.Meat));
         }
     }
 }
