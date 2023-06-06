@@ -10,20 +10,17 @@ namespace Module2_HW4_02062023
         public static void Run()
         {
             IGetAnimals aviary = new Aviary();
-            ICountedAnimals countedAnimals = (ICountedAnimals)aviary;
-            ISortByWeight sorted = (ISortByWeight)aviary;
-
             UI.PrintAviary(aviary, "Just created aviary");
 
             // сортировка по весу
-            sorted.SortByWeight(aviary);
+            ((ISortByWeight)aviary).SortByWeight(aviary);
             UI.PrintAviary(aviary, "Sorted by weight");
 
             // сотртировка по типу (названию)
             Array.Sort(aviary.GetAnimals());
             UI.PrintAviary(aviary, "Sorted by name");
 
-            UI.PrintGroupedAnimals(countedAnimals);
+            UI.PrintGroupedAnimals((ICountedAnimals)aviary);
 
             // поиск и печать животного по типу еды
             UI.PrintAviary(
