@@ -3,7 +3,7 @@
   <Class Name="Module2_HW4_02062023.Aviary">
     <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAE=</HashCode>
+      <HashCode>AAAEAAAAAIAAAAAAAAAQAAAAAAAAAAAAAEAACAAAAAE=</HashCode>
       <FileName>Aviary.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -14,23 +14,17 @@
   <Class Name="Module2_HW4_02062023.Animal" Collapsed="true">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAABAAAAEAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAAAAABAAAQEAAIAAAAAACBAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>Animal.cs</FileName>
       <NewMemberFileName>Cats.cs</NewMemberFileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Module2_HW4_02062023.Cats" Collapsed="true">
     <Position X="2.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Animals\Cats.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Module2_HW4_02062023.Monkey" Collapsed="true">
-    <Position X="6.75" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Animals\Monkey.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW4_02062023.Tiger">
@@ -59,6 +53,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Animals\Gorilla.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2_HW4_02062023.Monkey" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animals\Monkey.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="Module2_HW4_02062023.AnimalsKind">

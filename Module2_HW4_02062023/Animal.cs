@@ -3,7 +3,7 @@ using Module2_HW4_02062023.Enums;
 
 namespace Module2_HW4_02062023
 {
-    public class Animal
+    public class Animal : IComparable
     {
         private AnimalsKind _kind;
         private MainFood _mainFood;
@@ -49,6 +49,11 @@ namespace Module2_HW4_02062023
         public override string ToString()
         {
             return _kind.ToString();
+        }
+
+        public int CompareTo(object obj)
+        {
+            return this.ToString().CompareTo(obj.ToString());
         }
     }
 }

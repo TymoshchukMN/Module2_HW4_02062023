@@ -3,7 +3,7 @@ using Module2_HW4_02062023.Interfaces;
 
 namespace Module2_HW4_02062023
 {
-    public class Aviary : IGetAnimals, ICountedAnimals
+    public class Aviary : IGetAnimals, ICountedAnimals, ISortByWeight
     {
         private const int CountAnimals = 15;
         private Animal[] _animals;
@@ -80,6 +80,24 @@ namespace Module2_HW4_02062023
             return groupedAnimals;
         }
 
+        public void SortByWeight(IGetAnimals animals)
+        {
+            Animal animalTMP;
+
+            for (int i = 0; i < animals.GetAnimals().Length - 1; i++)
+            {
+                for (int j = i + 1; j < animals.GetAnimals().Length; j++)
+                {
+                    if (animals.GetAnimals()[i].Weight > animals.GetAnimals()[j].Weight)
+                    {
+                        animalTMP = animals.GetAnimals()[i];
+                        animals.GetAnimals()[i] = animals.GetAnimals()[j];
+                        animals.GetAnimals()[j] = animalTMP;
+                    }
+                }
+            }
+        }
+
         private static Animal FillAviary(int randNUm)
         {
             AnimalsKind kind = (AnimalsKind)randNUm;
@@ -103,7 +121,5 @@ namespace Module2_HW4_02062023
 
             return animal;
         }
-
-        
     }
 }

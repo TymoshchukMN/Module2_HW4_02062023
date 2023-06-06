@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Module2_HW4_02062023
 {
-    public class Monkey : Animal
+    public abstract class Monkey : Animal
     {
         public Monkey(AnimalsKind kind)
             : base(kind)
